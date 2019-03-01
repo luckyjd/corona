@@ -1,0 +1,322 @@
+
+.title-store {
+    font-size: 24px;
+    font-family: Corona-Headline-SemiBold, NotoSansCJKjp-Bold;
+}
+
+.list-store__title {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.presentTitle-sub {
+    font-size: 28px;
+}
+
+.presentTitle {
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.top-text {
+    top: 54%;
+}
+
+.title-top__list {
+    font-size: 24px;
+    font-family: CoronaHeadline, NotoSansCJKjp-Bold;
+    font-weight: 600;
+    color: white;
+}
+
+.content-top__list {
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+}
+
+.presentTitle li:first-of-type {
+    width: 26.5%;
+}
+
+.presentTitle li {
+    width: 47%;
+}
+
+.presentTitle li:last-of-type {
+    width: 26.5%;
+}
+
+.shop_address {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.shop_tel {
+    font-size: 17px;
+}
+
+.top-banner {
+    background: url("../images/list-store/top-liststore-sp.png");
+    background-size: cover;
+    background-position: bottom !important;
+    min-height: 260px;
+}
+
+.js-first-section {
+    position: relative;
+}
+/*iphone X*/
+
+@media (min-width: 375px) and (max-height: 812px) {
+    .top-text {
+        top: 55%;
+    }
+    .title-top__list {
+        font-size: 25px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .content-top__list {
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+    }
+}
+
+@media (min-width: 375px) and (max-height: 667px) {
+    .top-text {
+        top: 55%;
+    }
+}
+
+/*iphone 6,7,8*/
+@media (min-width: 375px) {
+    .title-store {
+        font-size: 24px;
+    }
+
+    .title-top__list {
+        font-size: 30px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .content-top__list {
+        font-size: 22px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .presentTitle li:first-of-type {
+        width: 30.5%;
+    }
+
+    .presentTitle li {
+        width: 39%;
+    }
+
+    .presentTitle li:last-of-type {
+        width: 30.5%;
+    }
+
+    .top-banner-fix__sp {
+        min-height: 310px;
+    }
+}
+
+/*iphone 6plus, 7plus, 8plus*/
+@media (min-width: 414px) {
+
+    .top-text {
+        top: 52%;
+    }
+
+    .title-top__list {
+        font-size: 31px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .top-banner-fix__sp {
+        min-height: 327px;
+    }
+}
+
+/* Ipad mini, tablets*/
+@media (min-width: 768px) {
+
+    .presentTitle:first-of-type {
+        margin-top: 90px;
+    }
+
+    .list-store__title {
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    .presentTitle li:first-of-type {
+        width: 35%;
+    }
+
+    .presentTitle li {
+        width: 30%;
+    }
+
+    .presentTitle li:last-of-type {
+        width: 35%;
+    }
+
+    .top-banner {
+        background: url("../images/list-store/top-liststore.png");
+        background-size: cover;
+    }
+
+    .top-banner {
+        min-height: 233px;
+    }
+    .top-text {
+        top: 52%;
+    }
+    .title-top__list {
+        font-size: 38px;
+        font-weight: 900;
+        color: white;
+    }
+}
+
+@media (min-width: 960px) {
+
+}
+
+/* Ipad pro, desktop*/
+@media (min-width: 1024px) {
+    .top-banner {
+        min-height: 310px;
+    }
+
+    .title-top__list {
+        font-size: 50px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .content-top__list {
+        font-size: 40px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .presentTitle li:first-of-type {
+        width: 41.5%;
+    }
+
+    .presentTitle li {
+        width: 17%;
+    }
+
+    .presentTitle li:last-of-type {
+        width: 41.5%;
+    }
+}
+
+@media (min-width: 1366px) {
+    .top-banner {
+        min-height: 436px;
+    }
+
+    .title-store {
+        font-size: 24px;
+    }
+
+    .top-banner {
+        background: url("../images/list-store/top-liststore.png");
+        background-size: cover;
+    }
+
+    .list-store__title {
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    .title-top__list {
+        font-size: 69px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .content-top__list {
+        font-size: 35px;
+        font-weight: 900;
+        color: white;
+    }
+}
+
+/* Desktop*/
+@media (min-width: 1440px) {
+    .top-banner {
+        min-height: 436px;
+    }
+
+    .title-store {
+        font-size: 24px;
+    }
+
+    .top-banner {
+        background: url("../images/list-store/top-liststore.png");
+        background-size: cover;
+    }
+
+    .list-store__title {
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    .title-top__list {
+        font-size: 69px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .content-top__list {
+        font-size: 40px;
+        font-weight: 900;
+        color: white;
+    }
+}
+
+/* Desktop*/
+@media (min-width: 1800px) {
+    .top-banner {
+        min-height: 550px;
+    }
+
+    .title-store {
+        font-size: 28px;
+    }
+
+    .top-banner {
+        background: url("../images/list-store/top-liststore.png");
+        background-size: cover;
+    }
+
+    .list-store__title {
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    .title-top__list {
+        font-size: 95px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .content-top__list {
+        font-size: 50px;
+        font-weight: 900;
+        color: white;
+    }
+
+}

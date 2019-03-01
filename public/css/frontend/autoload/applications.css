@@ -1,0 +1,582 @@
+.not-active {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    opacity: 0.25;
+}
+
+/* banner */
+.banner .bg-banner{
+    background: url('/public/css/frontend/images/my-page/my-page-header-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 95vh;
+}
+
+.banner .bg-banner img{
+    width: 100%;
+}
+
+.banner-container {
+    background: #0C213F;
+    color: white;
+}
+
+.banner .infor-user {
+    margin: 0 auto;
+    padding-top: 95px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.banner .infor-user .user-name {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: HelveticaNeue-Bold;
+}
+
+.banner .infor-user .user-point .number-point, .banner .infor-user .user-point .text-point, .banner .infor-user .user-name {
+    color: #fff;
+}
+
+#contents .banner .infor-user .user-name .lbl-logout {
+    text-decoration: underline;
+    font-family: Corona-Headline-SemiBold;
+    color: #fff;
+    font-size: 16px;
+}
+
+.banner .infor-user .user-point .number-point {
+    font-size: 118px;
+    letter-spacing: 0.02em;
+}
+
+.banner .infor-user .user-point .text-point {
+    font-size: 59px;
+    margin-left: 15px;
+}
+
+.banner {display: block;}
+
+.banner .img-campain-top {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.beers {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 8px;
+    list-style: none;
+}
+
+.beers li {
+    float: left;
+    margin-left: 45px;
+    margin-top: 24px;
+}
+
+.beers li:first-of-type, .beers li:nth-child(6) {
+    margin-left: 0;
+}
+
+
+.beers img {
+    width: 24px;
+    height: 106px;
+    object-fit: cover;
+}
+
+.beers img:last-of-type {
+    margin-right: 0;
+}
+
+.campain-icon {
+    z-index: 999;
+    position: absolute;
+    right: 20px;
+    height: 82px;
+    top: 5%;
+    display: block;
+    width: 82px;
+    padding: 0;
+    background-size: cover;
+    background: url(../images/my-page/camp.png) no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    padding-top: 0;
+}
+/* end banner */
+
+.navbar.login-my-page {
+    top: 565px;
+    bottom: 0;
+    position: absolute;
+}
+
+.navbar .my-page-label, .navbar .login-label {
+    color: #fff;
+}
+
+/* main-content*/
+.main-content {
+    background: url('/public/css/frontend/images/my-page/back_yellow.jpg') no-repeat;
+    background-size: 100%;
+    padding-bottom: 110px;
+    margin-top: -2px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.main-content .main1-note-bg {
+    background: url(/public/css/frontend/images/water-bg.png) no-repeat;
+    position: absolute;
+    width: 100%;
+    min-height: 97px;
+    top: -32px;
+    left: 0;
+    background-position: center center;
+    background-size: 300%;
+}
+
+.main-content .album {
+    padding-top: 80px;
+}
+
+.main-content .text-center h3, .main-content .text-center h4 {
+    font-weight: bold;
+}
+
+.main-content .text-center h3{
+    font-size: 29px;
+
+}
+.main-content .text-center h4{
+    font-size: 30px;
+    margin: 36px 0;
+}
+.main-content .album .card-bottom {
+    text-align: center;
+    margin: 25px auto 15px auto;
+    padding-bottom: 0;
+}
+
+/*.main-content .album .add-margin {*/
+/*display: inline-block;*/
+/*bottom: -2%;*/
+/*position: absolute;*/
+/*text-align: center;*/
+/*transform: translate(-50%, -50%);*/
+/*}*/
+
+.main-content .album .card-bottom .card-button-link {
+    display: block;
+}
+
+.main-content .album .card-bottom .card-button-link:hover {
+    text-decoration: none;
+}
+
+.main-content .album .text-center {
+    font-family: 'Noto Sans JP', sans-serif !important;
+    font-weight: bold;
+}
+
+.main-content .album .card-header .type-product {
+    font-family: Corona-Headline-SemiBold;
+}
+.price {
+    font-size: 20px;
+    font-family: Corona-Headline-SemiBold;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.price-text {
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+/* end main-content*/
+
+/* modal ship */
+.btn-register-address-ship {
+    width: 100%;
+}
+
+.div-select select, #ship {
+    font-weight: bold;
+}
+
+.gr-ckbox .custom-checkbox {
+    display: inline-block;
+}
+
+.chill-popup {
+    display: flex;
+    align-items: center;
+}
+
+.width225 {
+    width: 225px;
+}
+
+.ship-popup__title {
+    margin-bottom: 10px;
+}
+
+.require-before:before {
+    content: '*';
+    color: red;
+    position: relative;
+    padding-right: 5px;
+    vertical-align: sub;
+    font-size: 15px;
+}
+
+.helvetica-neue-medium.require-icon-title p {
+    text-align: center;
+    font-size: 11px;
+    line-height: 16px;
+    display: block;
+}
+/* end modal ship */
+
+/* The modal sory-try-again */
+
+/* End modal sory-try-again */
+
+@media screen and (min-width: 960px) {
+    .card-body-fix-padding {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .title-flex, .title-flex-small {
+        display: flex;
+        align-items: center;
+        padding: 0 1rem 0 0;
+        height: 135px;
+    }
+
+    .title-flex-small {
+        padding-top: 15px;
+    }
+
+    .title-flex .card-img-top, .title-flex-small .card-img-top {
+        width: 85px !important;
+        max-width: none;
+    }
+
+    .title-flex .type-product__2, .title-flex-small .type-product__2 {
+        margin-top: 0 !important;
+    }
+
+    .product-container .card-body-fix {
+        padding-bottom: 1px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+    .product-container span.type-product__2.type-product-fix,
+    .product-container p.type-product.type-product-fix{
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+}
+@media (min-width: 768px) {
+    .card-body-fix-padding {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .title-flex, .title-flex-small {
+        display: flex;
+        align-items: center;
+        padding: 0 1rem 0 0;
+        height: 135px;
+    }
+
+    .title-flex-small {
+        padding-top: 15px;
+    }
+
+    .title-flex .card-img-top, .title-flex-small .card-img-top {
+        width: 85px !important;
+        max-width: none;
+    }
+
+    .title-flex .type-product__2, .title-flex-small .type-product__2 {
+        margin-top: 0 !important;
+    }
+
+    .product-container .card-body-fix {
+        padding-bottom: 1px;
+    }
+
+    .banner .bg-banner {
+        /*min-height: 500px;*/
+    }
+
+    .beers {
+        width: 330px;
+    }
+
+    .beers li {
+        margin-left: 40px;
+    }
+
+    .beers img {
+        margin-right: 40px;
+        width: 34px;
+        height: 150px;
+    }
+    .main-content .text-center h3 {
+        font-size: 40px;
+    }
+    .main-content .text-center h4{
+        font-size: 28px;
+        margin: 36px 0;
+    }
+
+    .main-content .main1-note-bg {
+        background: url('/public/css/frontend/images/water-bg.png') no-repeat;
+        position: absolute;
+        width: 100%;
+        min-height: 100px;
+        top: -40px;
+        left: 0;
+        background-position: center center;
+        background-size: 150%;
+    }
+    .campain-icon {
+        height: 120px;
+        bottom: 5%;
+        width: 120px;
+        top: auto !important;
+        background-position: center!important;
+        background-size: cover !important;
+    }
+    .banner .infor-user {
+    }
+
+    /* modal ship */
+    .gr-ckbox .custom-control-label {
+        padding-left: 15px;
+    }
+
+    .gr-ckbox {
+        position: relative;
+        right: 8px;
+    }
+
+    .rule a:hover {
+        text-decoration: none;
+    }
+
+    .rule a .img-link {
+        margin-right: 4px;
+    }
+
+    .ship-popup__title {
+        margin-bottom: 5px;
+    }
+    /* end modal ship */
+
+    /* The modal sorry-try-again */
+    #modal-result-container .corona-headlinen-semi-bold p.text-center {
+        line-height: 120px;
+    }
+    /* End modal sorry-try-again */
+    .card-header-fix__mypage {
+    }
+    .product-1point-mypage-fix {
+    }
+    .product-5point-mypage-fix {
+    }
+}
+@media (min-width: 769px) {
+    /* banner */
+    .banner .bg-banner{
+        /*height: 55vh;*/
+    }
+    /* end banner */
+}
+
+.content-product {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    display: block;
+    display: -webkit-box !important;
+    max-width: 100%;
+    margin: 0 auto;
+    max-height: 100px !important;
+    white-space: normal;
+    word-wrap: normal;
+    height: 100px;
+}
+
+.product-1-point .content-product {
+    height: 120px;
+    max-height: 120px !important;
+}
+
+.card-img-icon {
+    width: 100px!important;
+}
+
+@media (min-width: 992px) {
+    .main-content .text-center h3 {
+        font-size: 41px;
+    }
+
+    .main-content .text-center h4{
+        font-size: 36px;
+    }
+
+    .banner .bg-banner{
+        min-height: auto;
+    }
+
+    .beers {
+        width: 468px;
+    }
+
+    .beers li {
+        margin-left: 73px;
+    }
+}
+
+
+
+@media (min-width: 1140px) {
+    .banner .infor-user {
+    }
+
+    .main-content .main1-note-bg {
+        top: -30px;
+        background-size: contain;
+    }
+}
+
+@media (max-width: 320px){
+    .card-img-icon {
+        width: 75px!important;
+    }
+
+    .card-popup__congrate {
+        max-height: none;
+    }
+
+    .congrate-btn {
+        margin-top: 30px;
+    }
+
+    .modal-title {
+        font-size: 21px;
+    }
+    .type-product-fix__mypage {
+        margin-top: 5px !important;
+    }
+    .card-body-fix__padding {
+        padding-top: 15px;
+    }
+
+    .beers {
+        width: 250px;
+        padding-bottom: 0px;
+    }
+
+    .beers li {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 375px){
+    .type-product-fix__mypage {
+        margin-top: 5px !important;
+    }
+    .card-body-fix__padding {
+        padding-top: 15px;
+    }
+}
+@media (max-width: 384px){
+    .type-product-fix__mypage {
+        margin-top: 5px !important;
+    }
+    .card-body-fix__padding {
+        padding-top: 15px;
+    }
+}
+@media (max-width: 414px){
+    .type-product-fix__mypage {
+        margin-top: 5px !important;
+    }
+    .card-body-fix__padding {
+        padding-top: 15px;
+    }
+}
+@media (max-width: 767px){
+    .card-body-fix-padding {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .title-flex, .title-flex-small {
+        display: flex;
+        align-items: center;
+        padding: 0 1rem 0 0;
+        height: auto;
+    }
+
+    .title-flex-small {
+    }
+
+    .title-flex .card-img-top, .title-flex-small .card-img-top {
+        width: auto !important;
+        max-width: none;
+    }
+
+    .title-flex .type-product__2, .title-flex-small .type-product__2 {
+        margin-top: 0 !important;
+    }
+
+    .content-product {
+        height: auto !important;
+        max-height: auto !important;
+        margin: 15px 0;
+    }
+
+    p.type-product.type-product-fix {
+        margin: 0;
+    }
+
+    .product-container .card-body-fix {
+        padding-top: 20px;
+    }
+    .beers {
+        padding-bottom: 2px;
+    }
+
+    .banner .infor-user .user-name {
+        margin-top: 20px;
+    }
+
+    .banner .infor-user {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1280px){
+    .main-content .main1-note-bg {
+        top: -40px;
+    }
+}

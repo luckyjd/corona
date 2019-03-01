@@ -1,0 +1,1 @@
+game_x blade view is working

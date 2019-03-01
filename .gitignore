@@ -1,0 +1,17 @@
+/vendor/*
+!app/cache/.gitkeep
+*.env
+!/congfig/database.php
+congfig/database.php
+/congfig/database.php
+/composer.lock
+.idea/*
+!/congfig/debugbar.php
+congfig/debugbar.php
+/congfig/debugbar.php
+/node_modules/*
+/public/js/backend/webpack/*.js
+/public/js/frontend/webpack/*.js
+/public/css/backend/webpack/*.css
+/public/css/frontend/webpack/*.css
+/report/*

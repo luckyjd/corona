@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 74.521">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #f6bf2e;
+        font-family: CoronaHeadline-SemiBold, Corona Headline;
+        font-weight: 600;
+      }
+
+      .cls-1 {
+        font-size: 21px;
+      }
+
+      .cls-2 {
+        font-size: 44px;
+      }
+    </style>
+  </defs>
+  <g id="Group_170" data-name="Group 170" transform="translate(-203.042 -1372.145)">
+    <g id="Group_169" data-name="Group 169">
+      <text id="STEP" class="cls-1" transform="translate(204.882 1392.145)"><tspan x="0" y="0">STEP</tspan></text>
+      <text id="_02" data-name="02" class="cls-2" transform="translate(203.042 1436.666)"><tspan x="0" y="0">02</tspan></text>
+    </g>
+  </g>
+</svg>
